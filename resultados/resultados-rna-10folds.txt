@@ -1,0 +1,224 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.MultilayerPerceptron -L 0.3 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H a
+Relation:     historico_ibov_cot_dia
+Instances:    990
+Attributes:   14
+              data
+              historico
+              fechamento
+              varianca_dia
+              abertura
+              minimo
+              medio
+              maximo
+              volume
+              negocios
+              mms
+              mme
+              d1
+              tendencia
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -1.4641732719450569
+    Node 3    3.955005972851648
+    Node 4    6.080297812752085
+    Node 5    2.4961047665342595
+    Node 6    -6.59221959559857
+    Node 7    6.975759824198315
+    Node 8    -8.060633569766246
+    Node 9    2.864972360200495
+    Node 10    6.210998382911588
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -3.955872143236346
+    Node 3    -0.9772643025943902
+    Node 4    -1.1236666777841562
+    Node 5    -0.9007051452516674
+    Node 6    -1.7151438626709146
+    Node 7    -0.9201880229762575
+    Node 8    -0.8458766913448621
+    Node 9    -0.7579477408480149
+    Node 10    -1.2993847698885257
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    1.6149818313009099
+    Node 3    -3.9657110618409317
+    Node 4    -6.802930906721598
+    Node 5    -2.2355841388916042
+    Node 6    6.90741778776342
+    Node 7    -7.922888839281476
+    Node 8    8.33545445282592
+    Node 9    -3.469022998544345
+    Node 10    -5.706819165341998
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    -8.835988992627232
+    Attrib data    1.2368625412429792
+    Attrib historico    -1.315372642734312
+    Attrib fechamento    -1.2963290515280446
+    Attrib varianca_dia    2.101976728853195
+    Attrib abertura    -0.6225656469586669
+    Attrib minimo    0.01613427233128056
+    Attrib medio    1.8827179275016488
+    Attrib maximo    1.3172643662811412
+    Attrib volume    6.077136410194013
+    Attrib negocios    2.306794128923682
+    Attrib mms    6.773640835523224
+    Attrib mme    4.73287343496498
+    Attrib d1    0.023298103976995152
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -2.964581032766914
+    Attrib data    -1.4675738926012916
+    Attrib historico    -16.6532572152923
+    Attrib fechamento    -16.646845897278723
+    Attrib varianca_dia    0.3413761271987554
+    Attrib abertura    -4.365956813677553
+    Attrib minimo    -5.942235433854925
+    Attrib medio    2.784508653839072
+    Attrib maximo    0.6156093346009476
+    Attrib volume    -0.18329407469438172
+    Attrib negocios    -2.5269481920958503
+    Attrib mms    28.30104852308737
+    Attrib mme    13.819808784990018
+    Attrib d1    -0.00765049390211512
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    -6.285572616542333
+    Attrib data    0.3213383131146395
+    Attrib historico    -2.1149834530907485
+    Attrib fechamento    -2.0888441249721614
+    Attrib varianca_dia    -1.138009732722752
+    Attrib abertura    0.04801149475505617
+    Attrib minimo    -0.36448246356946296
+    Attrib medio    1.2900885370429396
+    Attrib maximo    0.4569851879608936
+    Attrib volume    0.5932737909722016
+    Attrib negocios    -1.9893458086862958
+    Attrib mms    5.666885107652039
+    Attrib mme    4.096422736781183
+    Attrib d1    0.03236112282171552
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    -2.234388268383889
+    Attrib data    3.0958208578712894
+    Attrib historico    20.413658232677474
+    Attrib fechamento    20.344936817824195
+    Attrib varianca_dia    4.469722072373562
+    Attrib abertura    11.417503106397742
+    Attrib minimo    3.5851518528637545
+    Attrib medio    -3.464050882369555
+    Attrib maximo    0.025980301021001902
+    Attrib volume    -4.216230758034742
+    Attrib negocios    4.517230090500432
+    Attrib mms    -40.25250843564576
+    Attrib mme    -14.670812382809544
+    Attrib d1    -0.02282832899532481
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    -1.5159171837016205
+    Attrib data    1.9110328458175263
+    Attrib historico    -22.6276807328877
+    Attrib fechamento    -22.577169774551567
+    Attrib varianca_dia    -1.5687056255896445
+    Attrib abertura    -5.309456261003127
+    Attrib minimo    -7.609793768786309
+    Attrib medio    4.914486903414332
+    Attrib maximo    -2.858535630943098
+    Attrib volume    -2.9701724419192734
+    Attrib negocios    -0.18231149602436889
+    Attrib mms    40.67750769482281
+    Attrib mme    14.982149980578042
+    Attrib d1    0.020163861045204
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    -1.7299739321944334
+    Attrib data    1.6914064000661972
+    Attrib historico    14.49400845219149
+    Attrib fechamento    14.488230478186637
+    Attrib varianca_dia    4.7253977668183715
+    Attrib abertura    0.7389419269797594
+    Attrib minimo    2.8312477123053017
+    Attrib medio    -4.607849911238601
+    Attrib maximo    1.1025970799922107
+    Attrib volume    3.773983366589127
+    Attrib negocios    -4.12862996620174
+    Attrib mms    -23.570442559623757
+    Attrib mme    -3.3303644176768588
+    Attrib d1    -0.004138670428465663
+Sigmoid Node 9
+    Inputs    Weights
+    Threshold    3.007985267944086
+    Attrib data    2.4368024566060313
+    Attrib historico    -7.903603812384415
+    Attrib fechamento    -7.95450399648086
+    Attrib varianca_dia    2.4644539525969598
+    Attrib abertura    0.2337734824577375
+    Attrib minimo    -1.838789893406861
+    Attrib medio    -0.802830297304263
+    Attrib maximo    -1.1183458887245354
+    Attrib volume    3.236176256844216
+    Attrib negocios    10.640507795001346
+    Attrib mms    10.892278427102546
+    Attrib mme    4.7155008785993635
+    Attrib d1    0.00648900574424871
+Sigmoid Node 10
+    Inputs    Weights
+    Threshold    -0.34022939419529585
+    Attrib data    2.401516437337317
+    Attrib historico    -16.314344517678613
+    Attrib fechamento    -16.323215843758312
+    Attrib varianca_dia    -1.4219458348270477
+    Attrib abertura    -1.9490002469946845
+    Attrib minimo    -6.788240920614122
+    Attrib medio    -0.10319747588617521
+    Attrib maximo    -2.1302054795061087
+    Attrib volume    1.6900234189251973
+    Attrib negocios    -2.2778326547517236
+    Attrib mms    28.891915370751747
+    Attrib mme    12.163692700819519
+    Attrib d1    -0.022022797558712538
+Class baixa
+    Input
+    Node 0
+Class sem tendencia
+    Input
+    Node 1
+Class alta
+    Input
+    Node 2
+
+
+Time taken to build model: 1.69 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         894               90.303  %
+Incorrectly Classified Instances        96                9.697  %
+Kappa statistic                          0.8049
+Mean absolute error                      0.0823
+Root mean squared error                  0.2177
+Relative absolute error                 24.6632 %
+Root relative squared error             53.3507 %
+Total Number of Instances              990     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,920    0,113    0,907      0,920    0,913      0,808    0,969     0,975     baixa
+                 0,000    0,000    ?          0,000    ?          ?        0,525     0,005     sem tendencia
+                 0,890    0,083    0,898      0,890    0,894      0,808    0,968     0,963     alta
+Weighted Avg.    0,903    0,099    ?          0,903    ?          ?        0,967     0,966     
+
+=== Confusion Matrix ===
+
+   a   b   c   <-- classified as
+ 496   0  43 |   a = baixa
+   2   0   2 |   b = sem tendencia
+  49   0 398 |   c = alta
